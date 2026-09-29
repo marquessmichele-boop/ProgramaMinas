@@ -36,3 +36,7 @@ ProgramaMinas/
         ├── navegacao.js
         ├── paginas.js
         └── validacao.js
+
+## Projeto publicado
+
+O projeto está disponível no GitHub Pages.
