@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro | ProgramaMinas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>ProgramaMinas</h1>
+
+<nav>
+<a href="index.html">Início</a>
+<a href="projetos.html">Projetos</a>
+<a href="cadastro.html">Cadastro</a>
+</nav>
+
+</header>
+
+<main>
+
+<h2>Faça parte da comunidade</h2>
+
+<p>Preencha seus dados para participar dos projetos gratuitos da ONG.</p>
+
+<br>
+
+<form>
+
+<fieldset>
+
+<legend>Dados pessoais</legend>
+
+<label>Nome completo</label>
+<input type="text" required>
+
+<label>E-mail</label>
+<input type="email" required>
+
+<label>Telefone</label>
+<input type="tel" placeholder="(11) 99999-9999"
+pattern="\([0-9]{2}\)\s[0-9]{5}-[0-9]{4}" required>
+
+<label>CPF</label>
+<input type="text"
+placeholder="000.000.000-00"
+pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" required>
+
+<label>CEP</label>
+<input type="text"
+placeholder="00000-000"
+pattern="[0-9]{5}-[0-9]{3}" required>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Área de interesse</legend>
+
+<select required>
+<option value="">Escolha uma opção</option>
+<option>HTML & CSS</option>
+<option>Python</option>
+<option>Análise de Dados</option>
+<option>UX/UI</option>
+</select>
+
+<label>Conte sua história</label>
+<textarea rows="5"></textarea>
+
+</fieldset>
+
+<button class="btn" type="submit">
+Enviar Cadastro
+</button>
+
+</form>
+
+</main>
+
+<footer>
+ProgramaMinas • Inclusão, oportunidade e tecnologia
+</footer>
+
+</body>
+</html>
